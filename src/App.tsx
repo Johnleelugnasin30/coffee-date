@@ -17,7 +17,7 @@ const announcements: Record<Screen, string> = {
   greeting: `Hey, ${invitation.recipientName}. I wanted to ask you something.`,
   question: invitation.question,
   yes: "You said yes.",
-  details: "Coffee date details. You can edit them. Nothing is sent automatically.",
+  details: "Coffee details. You can edit them. Nothing is sent automatically.",
   no: "Okay. No hard feelings.",
 };
 

@@ -139,7 +139,7 @@ export function DateDetails() {
         {status}
       </p>
       {note ? (
-        <textarea className="note" readOnly value={note} aria-label="Coffee date note" />
+        <textarea className="note" readOnly value={note} aria-label="Coffee note" />
       ) : null}
       <p className="hint">{customMessages.privacy}</p>
       <p className="signoff">— {senderName}</p>

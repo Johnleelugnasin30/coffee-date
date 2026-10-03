@@ -5,7 +5,7 @@
 export const invitation = {
   recipientName: "Jasriel Blanza",
   senderName: "Johnlee Lugnasin",
-  question: "Would you go on a coffee date with me?",
+  question: "Can we have a coffee?",
   coffeeMessage:
     "I promise good coffee,\ngood conversation,\nand absolutely no awkward silence...\n\nOkay, maybe a little.",
   date: "",
@@ -39,7 +39,7 @@ export const invitation = {
     yesBurst: "WAIT... REALLY?! 😭❤️",
     yesTitle: "YOU SAID YES!",
     yesSmile: "Okay, now I'm smiling like an idiot. 😭❤️",
-    yesConfirm: "Then it's officially a coffee date. ☕❤️",
+    yesConfirm: "Then we can have a coffee. ☕❤️",
     yesContinue: "Let's pick the details",
     noTitle: "Okay 😭",
     noBody: "No hard feelings.",
@@ -49,7 +49,7 @@ export const invitation = {
     stopRunning: "Okay, okay... I'll stop running. 😭",
     decide: "Now we just have to decide where. 👀",
     back: "Back",
-    dateHeading: "Coffee date",
+    dateHeading: "Coffee",
     nothingSent: "Copied. Nothing was sent — share it only if you want.",
     privacy: "Nothing here is saved or sent on its own.",
   },
@@ -57,8 +57,6 @@ export const invitation = {
     "NO 🙈",
     "Are you sure? 🥺",
     "Really? 😭",
-    "Coffee is on me! ☕",
-    "Think about the coffee... 👀",
     "Okay okay... 😭",
   ],
   whispers: [
@@ -73,5 +71,5 @@ export const invitation = {
     "The cozy corner café",
     "Wherever the coffee smells right",
   ],
-  maxDodges: 5,
+  maxDodges: 3,
 };
