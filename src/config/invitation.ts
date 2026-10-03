@@ -1,0 +1,77 @@
+/**
+ * Edit this file to personalize the invitation.
+ * You do not need to change any React components.
+ */
+export const invitation = {
+  recipientName: "HER NAME",
+  senderName: "YOUR NAME",
+  question: "Would you go on a coffee date with me?",
+  coffeeMessage:
+    "I promise good coffee,\ngood conversation,\nand absolutely no awkward silence...\n\nOkay, maybe a little.",
+  date: "",
+  location: "",
+  coffeeShop: "",
+  background: {
+    from: "#f7efe8",
+    via: "#f6d5d0",
+    to: "#ead8c8",
+  },
+  colors: {
+    ink: "#2c1c16",
+    rose: "#9e3d4a",
+    cream: "#fffaf6",
+    espresso: "#3a241c",
+    gold: "#8a6248",
+    blush: "#f3cfc9",
+  },
+  emoji: {
+    coffee: "☕",
+    heart: "❤️",
+    letter: "💌",
+  },
+  customMessages: {
+    opening: "Someone has a question for you...",
+    openButton: "Open it 💌",
+    greetingLead: "Hey",
+    greetingAsk: "I wanted to ask you something.",
+    greetingLittle: "I have a little question.",
+    continueButton: "I'm listening",
+    yesBurst: "WAIT... REALLY?! 😭❤️",
+    yesTitle: "YOU SAID YES!",
+    yesSmile: "Okay, now I'm smiling like an idiot. 😭❤️",
+    yesConfirm: "Then it's officially a coffee date. ☕❤️",
+    yesContinue: "Let's pick the details",
+    noTitle: "Okay 😭",
+    noBody: "No hard feelings.",
+    noOffer: "Coffee offer remains available though. ☕",
+    noThanks: "Thanks for being honest ❤️",
+    honestNo: "Okay, I really mean no.",
+    stopRunning: "Okay, okay... I'll stop running. 😭",
+    decide: "Now we just have to decide where. 👀",
+    back: "Back",
+    dateHeading: "Coffee date",
+    nothingSent: "Copied. Nothing was sent — share it only if you want.",
+    privacy: "Nothing here is saved or sent on its own.",
+  },
+  noButtonLines: [
+    "NO 🙈",
+    "Are you sure? 🥺",
+    "Really? 😭",
+    "Coffee is on me! ☕",
+    "Think about the coffee... 👀",
+    "Okay okay... 😭",
+  ],
+  whispers: [
+    "Choose wisely 👀",
+    "There's coffee involved.",
+    "I even promise to let you choose the coffee.",
+    "Okay, maybe I'm nervous.",
+    "Just asking 👉👈",
+  ],
+  coffeeShopSuggestions: [
+    "Somewhere with good light",
+    "The cozy corner café",
+    "Wherever the coffee smells right",
+  ],
+  maxDodges: 5,
+};
